@@ -328,6 +328,7 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
                 </goals>
                 <configuration>
                   <enableHttpUrlHandler>true</enableHttpUrlHandler>
+                  <additionalBuildArgs>--allow-incomplete-classpath</additionalBuildArgs>
                 </configuration>
               </execution>
             </executions>
