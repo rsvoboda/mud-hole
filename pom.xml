@@ -101,7 +101,7 @@ Caused by: java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.net.ConnectException: Connection refused
  -->
-    <dependency>
+    <!-- <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-mongodb-client</artifactId>
     </dependency>
@@ -140,7 +140,7 @@ Caused by: java.net.ConnectException: Connection refused
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-metrics</artifactId>
-    </dependency>
+    </dependency> -->
 <!--     
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.977 s <<< FAILURE! - in org.acme.quickstart.GreetingResourceTest
 [ERROR] testHelloEndpoint  Time elapsed: 0.02 s  <<< ERROR!
