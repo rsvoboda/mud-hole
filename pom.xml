@@ -179,7 +179,7 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-jdbc-mariadb</artifactId>
     </dependency> -->
-    <dependency>
+    <!-- <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-narayana-jta</artifactId>
     </dependency>
@@ -258,7 +258,7 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-reactive-streams-operators</artifactId>
-    </dependency>
+    </dependency> -->
 
     <!--
       [ERROR] Failed to execute goal io.quarkus:quarkus-maven-plugin:999-SNAPSHOT:build (default) on project getting-started: Failed to build a runnable JAR: Failed to build a runner jar: Failed to augment application classes: Build failure: Build failed due to errors
@@ -328,7 +328,7 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
                 </goals>
                 <configuration>
                   <enableHttpUrlHandler>true</enableHttpUrlHandler>
-                  <additionalBuildArgs>--allow-incomplete-classpath,--report-unsupported-elements-at-runtime</additionalBuildArgs>
+                  <!-- <additionalBuildArgs>-x-allow-incomplete-classpath,-x-report-unsupported-elements-at-runtime</additionalBuildArgs> -->
                 </configuration>
               </execution>
             </executions>
