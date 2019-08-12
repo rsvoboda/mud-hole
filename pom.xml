@@ -152,7 +152,7 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-keycloak</artifactId>
     </dependency> -->
-    <dependency>
+    <!-- <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-hibernate-search-elasticsearch</artifactId>
     </dependency>
@@ -163,7 +163,7 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-infinispan-client</artifactId>
-    </dependency>
+    </dependency> -->
 <!-- 
 2019-07-23 12:56:43,845 ERROR [io.und.req.io] (executor-thread-1) Exception handling request d62de77d-df47-47e1-9bef-31d47e7b9057-1 to /hello: java.lang.IllegalStateException: JWTAuthContextInfo has not been initialized. Please make sure that either 'mp.jwt.verify.publickey' or 'mp.jwt.verify.publickey.location' properties are set.
 	at io.smallrye.jwt.config.JWTAuthContextInfoProvider.lambda$throwException$0(JWTAuthContextInfoProvider.java:355)
@@ -268,7 +268,7 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
 [ERROR] -> [Help 1]
 [ERROR]
  -->
-    <dependency>
+    <!-- <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-flyway</artifactId>
     </dependency>
@@ -280,7 +280,7 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-hibernate-validator</artifactId>
-    </dependency>
+    </dependency> -->
   </dependencies>
   <build>
     <plugins>
