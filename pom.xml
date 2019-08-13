@@ -152,10 +152,10 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-keycloak</artifactId>
     </dependency> -->
-    <dependency>
+    <!-- <dependency>   NATIVE mode issue, depends on quarkus-hibernate-orm ... https://github.com/quarkusio/quarkus/issues/2482
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-hibernate-search-elasticsearch</artifactId>
-    </dependency>
+    </dependency> -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-undertow</artifactId>
