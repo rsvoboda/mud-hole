@@ -85,10 +85,10 @@ Caused by: java.lang.NullPointerException
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-reactive-type-converters</artifactId>
     </dependency>
-    <dependency>  <!-- trouble in NATIVE  https://github.com/quarkusio/quarkus/issues/2482 -->
+    <!-- <dependency>  trouble in NATIVE  https://github.com/quarkusio/quarkus/issues/2482
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-hibernate-orm-panache</artifactId>
-    </dependency>
+    </dependency> -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-jdbc-h2</artifactId>
