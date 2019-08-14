@@ -85,10 +85,11 @@ Caused by: java.lang.NullPointerException
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-reactive-type-converters</artifactId>
     </dependency>
-    <!-- <dependency>  trouble in NATIVE  https://github.com/quarkusio/quarkus/issues/2482
+    <!-- trouble in NATIVE  https://github.com/quarkusio/quarkus/issues/2482  -->
+    <dependency>  
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-hibernate-orm-panache</artifactId>
-    </dependency> -->
+    </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-jdbc-h2</artifactId>
@@ -152,10 +153,11 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-keycloak</artifactId>
     </dependency> -->
-   <dependency>   <!--  NATIVE mode issue, depends on quarkus-hibernate-orm ... https://github.com/quarkusio/quarkus/issues/2482 -->
+    <!--  NATIVE mode issue, depends on quarkus-hibernate-orm ... https://github.com/quarkusio/quarkus/issues/2482 -->
+    <!-- <dependency> 
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-hibernate-search-elasticsearch</artifactId>
-    </dependency>
+    </dependency> -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-undertow</artifactId>
