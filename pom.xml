@@ -39,6 +39,12 @@
       <artifactId>rest-assured</artifactId>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-tika</artifactId>
+    </dependency>
+
     <!-- 
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.596 s <<< FAILURE! - in org.acme.quickstart.GreetingResourceTest
 [ERROR] testHelloEndpoint  Time elapsed: 0.023 s  <<< ERROR!
@@ -154,6 +160,7 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
       <artifactId>quarkus-keycloak</artifactId>
     </dependency> -->
     <!--  NATIVE mode issue, depends on quarkus-hibernate-orm ... https://github.com/quarkusio/quarkus/issues/2482 -->
+    <!-- there is also something else which breaks native in minimal code mode -->
     <!-- <dependency> 
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-hibernate-search-elasticsearch</artifactId>
