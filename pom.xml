@@ -195,10 +195,11 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-undertow-websockets</artifactId>
     </dependency>
-    <!-- <dependency>
+    <!-- <dependency> trouble in NATIVE 
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-spring-di</artifactId>
     </dependency>
+  -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-opentracing</artifactId>
@@ -223,10 +224,10 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-amazon-dynamodb</artifactId>
     </dependency>
-    <dependency>
+  <!--  <dependency> trouble in NATIVE 
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-tika</artifactId>
-    </dependency>
+    </dependency> -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-vertx</artifactId>
@@ -258,7 +259,7 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-reactive-streams-operators</artifactId>
-    </dependency> -->
+    </dependency>
 
     <!--
       [ERROR] Failed to execute goal io.quarkus:quarkus-maven-plugin:999-SNAPSHOT:build (default) on project getting-started: Failed to build a runnable JAR: Failed to build a runner jar: Failed to augment application classes: Build failure: Build failed due to errors
