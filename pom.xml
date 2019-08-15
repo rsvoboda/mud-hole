@@ -40,11 +40,6 @@
       <scope>test</scope>
     </dependency>
 
-    <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-tika</artifactId>
-    </dependency>
-
     <!-- 
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.596 s <<< FAILURE! - in org.acme.quickstart.GreetingResourceTest
 [ERROR] testHelloEndpoint  Time elapsed: 0.023 s  <<< ERROR!
@@ -234,10 +229,11 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-amazon-dynamodb</artifactId>
     </dependency>
-  <!--  <dependency> trouble in NATIVE 
+    <!-- trouble in NATIVE -->
+    <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-tika</artifactId>
-    </dependency> -->
+    </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-vertx</artifactId>
