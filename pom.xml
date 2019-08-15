@@ -63,7 +63,7 @@ Caused by: java.lang.NullPointerException
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-kubernetes</artifactId>
     </dependency> -->
-    <dependency>
+    <!-- <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-jdbc-postgresql</artifactId>
     </dependency>
@@ -90,7 +90,7 @@ Caused by: java.lang.NullPointerException
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-reactive-type-converters</artifactId>
-    </dependency>
+    </dependency> -->
     <!-- trouble in NATIVE  https://github.com/quarkusio/quarkus/issues/2482  -->
     <dependency>  
       <groupId>io.quarkus</groupId>
