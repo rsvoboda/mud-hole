@@ -197,10 +197,10 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
       <artifactId>quarkus-neo4j</artifactId>
     </dependency> -->
     <!-- trouble in NATIVE https://github.com/quarkusio/quarkus/issues/2482 -->
-    <dependency>
+    <!-- <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-hibernate-orm</artifactId>
-    </dependency>
+    </dependency> -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-undertow-websockets</artifactId>
