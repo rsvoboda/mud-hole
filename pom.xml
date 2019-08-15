@@ -63,7 +63,7 @@ Caused by: java.lang.NullPointerException
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-kubernetes</artifactId>
     </dependency> -->
-    <!-- <dependency>
+    <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-jdbc-postgresql</artifactId>
     </dependency>
@@ -90,16 +90,16 @@ Caused by: java.lang.NullPointerException
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-reactive-type-converters</artifactId>
-    </dependency> -->
+    </dependency>
     <!-- trouble in NATIVE  https://github.com/quarkusio/quarkus/issues/2482  -->
     <!-- <dependency>  
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-hibernate-orm-panache</artifactId>
-    </dependency>
+    </dependency> -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-jdbc-h2</artifactId>
-    </dependency> -->
+    </dependency>
 <!-- 
 2019-07-23 12:56:42,626 INFO  [org.mon.dri.cluster] (cluster-ClusterId{value='5d36e7ea7d4d8601c575f4bd', description='null'}-127.0.0.1:27017) Exception in monitor thread while connecting to server 127.0.0.1:27017: com.mongodb.MongoSocketOpenException: Exception opening socket
 	at com.mongodb.internal.connection.SocketChannelStream.open(SocketChannelStream.java:63)
@@ -108,7 +108,7 @@ Caused by: java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.net.ConnectException: Connection refused
  -->
-    <!-- <dependency>
+    <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-mongodb-client</artifactId>
     </dependency>
@@ -147,7 +147,7 @@ Caused by: java.net.ConnectException: Connection refused
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-metrics</artifactId>
-    </dependency> -->
+    </dependency>
 <!--     
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.977 s <<< FAILURE! - in org.acme.quickstart.GreetingResourceTest
 [ERROR] testHelloEndpoint  Time elapsed: 0.02 s  <<< ERROR!
@@ -188,14 +188,14 @@ Caused by: java.lang.IllegalStateException: Keycloak configuration not found, pl
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-jdbc-mariadb</artifactId>
     </dependency> -->
-    <!-- <dependency>
+    <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-narayana-jta</artifactId>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-neo4j</artifactId>
-    </dependency> -->
+    </dependency>
     <!-- trouble in NATIVE https://github.com/quarkusio/quarkus/issues/2482 -->
     <!-- <dependency>
       <groupId>io.quarkus</groupId>
